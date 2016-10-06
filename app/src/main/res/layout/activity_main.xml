@@ -19,56 +19,44 @@
         android:layout_gravity="center"
         android:textSize="30dp"
         android:gravity="center"
-        android:text="My Nanodegree Apps!"
+        android:text="@string/main_title"
         android:padding="10dp" />
 
     <Button
         android:background="@android:color/holo_blue_dark"
         android:id="@+id/popular_movies"
-        android:layout_margin="10dp"
-        android:layout_height="wrap_content"
-        android:text="Popular Movies"
-        android:layout_width="250dp" />
+        style="@style/ButtonTheme"
+        android:text="@string/PMapp" />
 
     <Button
         android:background="#5C6BC0"
         android:id="@+id/stock_hawk"
-        android:layout_margin="10dp"
-        android:layout_height="wrap_content"
-        android:text="Stock Hawk"
-        android:layout_width="250dp"
-        android:paddingBottom="1dp" />
+        style="@style/ButtonTheme"
+        android:text="@string/SHapp" />
 
     <Button
         android:background="@android:color/holo_blue_dark"
         android:id="@+id/build_it_bigger"
-        android:layout_margin="10dp"
-        android:layout_height="wrap_content"
-        android:text="Build It Bigger"
-        android:layout_width="250dp" />
+        style="@style/ButtonTheme"
+        android:text="@string/BIBapp"
+        />
 
     <Button
         android:background="#5C6BC0"
         android:id="@+id/make_your_app_material"
-        android:layout_margin="10dp"
-        android:layout_height="wrap_content"
-        android:text="Make Your App Material"
-        android:layout_width="250dp" />
+        style="@style/ButtonTheme"
+        android:text="@string/MYAMapp" />
 
     <Button
         android:background="@android:color/holo_blue_dark"
         android:id="@+id/go_ubiquitous"
-        android:layout_margin="10dp"
-        android:layout_height="wrap_content"
-        android:text="Go Ubiquitous"
-        android:layout_width="250dp" />
+        style="@style/ButtonTheme"
+        android:text="@string/GUapp" />
 
     <Button
-        android:background="#5C6BC0"
         android:id="@+id/capstone"
-        android:layout_margin="10dp"
-        android:layout_height="wrap_content"
-        android:text="Capstone"
-        android:layout_width="250dp" />
+        android:background="#5C6BC0"
+        style="@style/ButtonTheme"
+        android:text="@string/CSapp"/>
 
 </LinearLayout>
